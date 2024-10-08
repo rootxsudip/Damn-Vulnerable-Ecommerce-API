@@ -1,0 +1,8 @@
+# Config
+.env
+
+# Dependency directories
+node_modules/
+
+#Bugs implemented intentionally
+bugs.txt
