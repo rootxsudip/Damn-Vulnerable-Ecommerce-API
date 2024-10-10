@@ -25,6 +25,9 @@ Set up the environment variables required by the application. In the root of the
 ```
 # Database connection string
 CONNECTION_STRING=mongodb://mongo:27017/damn_vulnerable_ecommerce
+
+# JWT Secret
+ACCESS_TOKEN_SECRET=Test1234
 ```
 **3. Build and Start the Application with Docker Compose**
 To build and start the application and its dependencies using Docker, use the following command:
